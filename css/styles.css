@@ -17,8 +17,8 @@
   --button-portfolio-color: #212121;
   --portfolio-border: #eeeeee;
   --header-border: #ececec;
-  --section-second: #F5F4FA;
-  --fill-color:#AFB1B8;
+  --section-second: #f5f4fa;
+  --fill-color: #afb1b8;
 }
 a {
   cursor: pointer;
@@ -158,7 +158,6 @@ img {
   margin-bottom: 0;
 }
 
-
 .contacts-link-phone-mail {
   display: flex;
   align-items: center;
@@ -180,9 +179,9 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-  ),
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(../img/HW4/heroimg.jpg);
   background-color: var(--button-portfolio-color);
 }
@@ -245,7 +244,6 @@ img {
   width: 270px;
 }
 
-
 /* Вставляем картиночки */
 .icon-bests {
   display: flex;
@@ -259,10 +257,9 @@ img {
 }
 
 .icon-bests:focus,
-.icon-bests:hover{
+.icon-bests:hover {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
 
 .bests-list:not(:last-child) {
   margin-right: 30px;
@@ -309,11 +306,10 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-discription{
+.team-discription {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 
 .social-items {
   display: flex;
@@ -334,7 +330,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #afb1b8
+  color: #afb1b8;
 }
 .social-link-push:hover,
 .social-link-push:focus {
@@ -349,7 +345,6 @@ img {
 .social-links:focus {
   fill: var(--white-color);
 }
-
 
 .team-name {
   margin-bottom: 10px;
@@ -390,21 +385,17 @@ img {
   justify-content: center;
 }
 
-
 .list-clients {
   margin-right: 30px;
   width: 170px;
   height: 92px;
   align-items: center;
   box-sizing: border-box;
-  
-
 }
 
 .list-clients:last-child {
   margin-right: 0;
 }
-
 
 .link-clients {
   display: flex;
@@ -413,7 +404,7 @@ img {
   height: 92px;
   justify-content: center;
   align-items: center;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -428,7 +419,7 @@ img {
 }
 
 .link-clients:hover .logo-clients,
-.link-clients:focus .logo-clients{
+.link-clients:focus .logo-clients {
   fill: var(--blue-color);
 }
 
@@ -479,8 +470,7 @@ img {
   margin-left: 70px;
 }
 
-
-.right-text{
+.right-text {
   padding-top: 12px;
   font-style: normal;
   font-weight: 700;
@@ -515,7 +505,6 @@ img {
   height: 100%;
   border-radius: 50%;
   background-color: var(--gray-color);
-  
 }
 
 .right-link:hover,
@@ -526,9 +515,6 @@ img {
 .right-icon {
   fill: var(--white-color);
 }
-
-
-
 
 /* Portfolio Page*/
 .main-section {
@@ -586,7 +572,8 @@ img {
 
 .lists-blocks:hover,
 .lists-blocks:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .pictures-list {
