@@ -1,0 +1,399 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  background-color: var(--white-color);
+}
+
+:root {
+  --brand-color: #000000;
+  --gray-color: #757575;
+  --blue-color: #2196f3;
+  --try-button-focus: cornflowerblue;
+  --white-color: #ffffff;
+  --our-team-bg: #f5f4fa;
+  --main-bg-color: #2f303a;
+  --button-portfolio-color: #212121;
+  --portfolio-border: #eeeeee;
+  --header-border: #ececec;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+/* Reset h,p,ul */
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset Default img */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* MAIN PAGE */
+
+/* Paddings for sections */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.section-portfolio {
+  /* В макете нет верхнего падинга поэтому обнуляем */
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
+/* Header */
+/* Logo */
+
+.top-header {
+  border-bottom: 1px solid var(--header-border);
+}
+.conteiner {
+  /* outline: 2px solid tomato; */
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.top-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  list-style-type: none;
+  margin-right: 93px;
+}
+.logo-web {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--blue-color);
+  text-decoration: none;
+}
+.logo-studio {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--brand-color);
+}
+/* Li */
+.menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu-link {
+  display: block;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.menu-link:focus,
+.menu-link:hover {
+  color: var(--blue-color);
+}
+
+.current {
+  color: var(--blue-color);
+}
+.menu-contacts {
+  display: flex;
+  margin-left: auto;
+  list-style-type: none;
+}
+
+.contacts-link:not(:first-child) {
+  margin-left: 50px;
+}
+
+.contacts-link-phone-mail {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--gray-color);
+}
+.contacts-link-phone-mail:focus,
+.contacts-link-phone-mail:hover {
+  color: var(--blue-color);
+}
+/*Перша секція "замовити послугу"*/
+
+.try-us {
+  background-color: var(--main-bg-color);
+}
+.hero-header-class {
+  margin-left: 235px;
+  margin-right: 235px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  text-transform: uppercase;
+
+  /* outline: 2px solid tomato; */
+}
+.try-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 32px 10px 32px;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+
+  /* outline: 2px solid tomato; */
+}
+.try-button:hover,
+.try-button:focus {
+  background: var(--try-button-focus);
+}
+/*Друга секція "наші переваги"*/
+
+.menu-strong {
+  list-style-type: none;
+  display: flex;
+}
+.list-strong-item {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--brand-color);
+}
+
+.bests-list {
+  width: 270px;
+}
+
+.bests-list:not(:last-child) {
+  margin-right: 30px;
+}
+/*Нижче я вказав фонт вейт 400, бо за замовченням я поставив 500*/
+.text-strong-item {
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--gray-color);
+}
+/*Третя секція "Чим ми займаємось"*/
+.works {
+  background-color: var(--white-color);
+}
+.text-portfolio-mail {
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--button-portfolio-color);
+}
+.menu-portfolio {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+/*Четверт секція "Наша команда"*/
+
+.team {
+  background-color: var(--our-team-bg);
+}
+
+.team-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+
+.team-discription{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-name {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--button-portfolio-color);
+}
+.team-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--gray-color);
+}
+/* Далі йдемо до підвалу */
+.footer-main {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--main-bg-color);
+}
+
+.father-adress {
+  margin-top: 20px;
+}
+.footer-adress-menu {
+  list-style-type: none;
+}
+.footer-contact-link {
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-links:not(:last-child) {
+  margin-bottom: 9px;
+}
+.mailto {
+  color: var(--white-color);
+}
+.footer-contact-link:focus,
+.footer-contact-link:hover {
+  color: var(--blue-color);
+}
+.logo-studio-footer {
+  color: var(--white-color);
+}
+/* Portfolio Page*/
+.main-section {
+  background-color: var(--white-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/* UL with buttons*/
+.buttons-menu {
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+.button-portfolio {
+  padding: 6px 24px 6px 24px;
+  font-style: normal;
+  margin-right: 8px;
+  background-color: var(--our-team-bg);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.71;
+  text-align: center;
+  color: var(--button-portfolio-color);
+  border-radius: 4px;
+  border: none;
+}
+.button-portfolio:focus,
+.button-portfolio:hover {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border: none;
+}
+.last {
+  margin-right: 0;
+}
+
+/* UL with picture*/
+
+.lists-blocks {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.lists-blocks:nth-child(3n) {
+  margin-right: 0;
+}
+
+.lists-blocks:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.pictures-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.options-discription {
+  padding: 20px 24px;
+  border-right: 1px solid var(--portfolio-border);
+  border-bottom: 1px solid var(--portfolio-border);
+  border-left: 1px solid var(--portfolio-border);
+}
+.name-picture-section {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--brand-color);
+}
+.caption-picture-section {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--gray-color);
+}
