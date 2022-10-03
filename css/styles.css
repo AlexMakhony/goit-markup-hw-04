@@ -462,6 +462,7 @@ img {
 
 .footer-parts {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-left-part {
@@ -470,6 +471,7 @@ img {
 
 .footer-rigth-part {
   display: block;
+
   margin-left: 70px;
 }
 
